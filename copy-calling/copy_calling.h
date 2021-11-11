@@ -14,6 +14,6 @@ namespace copy_calling
 
 	namespace utility
 	{
-		void* allocate_memory_close_to_address(void* address, size_t size);
+		void* allocate_memory_close_to_address(void* address, std::size_t size);
 	}
 }
